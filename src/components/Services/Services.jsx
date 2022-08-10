@@ -8,7 +8,7 @@ function Services() {
       <h5>What I offer</h5>
       <h2>Services</h2>
       <div className="container services__container">
-        <div className="service">
+        <div className="services">
           <div className="service__head">
             <h3>UI/UX</h3>
           </div>
@@ -40,7 +40,7 @@ function Services() {
           </ul>
         </div>
 
-        <div className="service">
+        <div className="services">
           <div className="service__head">
             <h3>Web Development</h3>
           </div>
@@ -69,10 +69,14 @@ function Services() {
               <BsCheck className="service__list-icon" />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
+            <li>
+              <BsCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
           </ul>
         </div>
 
-        <div className="service">
+        <div className="services">
           <div className="service__head">
             <h3>Content Creation</h3>
           </div>

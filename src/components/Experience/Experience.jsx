@@ -21,7 +21,7 @@ function Experience() {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>CSS</h4>
+                <h4>CSS/SCSS</h4>
                 <small className="text-light">Advanced</small>
               </div>
             </article>
