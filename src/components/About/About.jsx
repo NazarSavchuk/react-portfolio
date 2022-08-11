@@ -22,30 +22,22 @@ function About() {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>3+ years working experience</small>
-            </article>
-            <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>300+ worldwide</small>
+              <small>4 years learning FrontEnd</small>
             </article>
             <article className="about__card">
               <VscFolderActive className="about__icon" />
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>12+ Completed</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            eaque vel neque reprehenderit temporibus natus vero, maiores optio
-            velit quam minima possimus sapiente corrupti rerum aperiam
-            perferendis dicta itaque, voluptatum libero iste odio voluptates
-            eum. Quidem exercitationem sapiente voluptate soluta nisi dicta
-            distinctio illo vero, maxime dolorum reiciendis hic asperiores
-            magnam quisquam. Ad temporibus beatae perferendis a officiis, omnis
-            quibusdam ducimus sit sapiente assumenda aliquid quia autem
-            inventore? Minus ratione quidem assumenda libero vel harum? Ullam
-            blanditiis sequi animi quisquam!
+            I am a hardworking and ambitious individual with a great passion for
+            the Web Development. I am currently in my fourth year of studying
+            Computer Science and Econometrics. I have excellent communication
+            skills, enabling me to effectively communicate with a wide range of
+            people. I am seeing a part-time position in the industry in which I
+            can put into practice my knowledge and experience, ultimately
+            benefiting the operations of the organisation that I work for.
           </p>
 
           <a href="#contacts" className="btn btn-primary">

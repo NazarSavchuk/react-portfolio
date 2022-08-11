@@ -36,16 +36,17 @@
 }
 .about__cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
 }
 
 .about__card {
   background: var(--color-bg-variant);
-  border: 1px solid transparent;
+  border: 1px solid #998af1;
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
+  transition: var(--transition);
 }
 .about__card:hover {
   background: transparent;

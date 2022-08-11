@@ -1,10 +1,10 @@
 import React from "react";
 import "./Header.scss";
 import CTA from "./CTA";
-import ME from "../../assets/img/me.png";
+import ME from "../../assets/img/me.jpg";
 import HeaderSocials from "./HeaderSocials";
 
-function Header() {
+function Header({ setActiveNav }) {
   return (
     <header>
       <div className="container header__container">
@@ -14,9 +14,12 @@ function Header() {
         <CTA />
         <HeaderSocials />
         <div className="me">
-          <img src={ME} alt="me image" />
+          <img src={ME} alt="me" />
         </div>
-        <a href="#contacts" className="scroll__down">
+        <a
+          href="#contacts"
+          className="scroll__down"
+          onClick={() => setActiveNav("#contacts")}>
           Scroll Down
         </a>
       </div>

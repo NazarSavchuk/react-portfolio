@@ -15,95 +15,75 @@ function Services() {
           <ul className="service__list">
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Figma</p>
             </li>
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Adobe Photoshop</p>
             </li>
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Adobe Illustrator</p>
             </li>
           </ul>
         </div>
 
         <div className="services">
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>Computer Skills</h3>
           </div>
           <ul className="service__list">
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Computer literacy</p>
             </li>
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Strong creative ability</p>
             </li>
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Attention to detail</p>
             </li>
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>A keen interest in technology</p>
             </li>
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Excellent problem-solving skills</p>
             </li>
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>A logical approach to work</p>
             </li>
           </ul>
         </div>
 
         <div className="services">
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Soft Skills</h3>
           </div>
           <ul className="service__list">
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Critical thinking</p>
             </li>
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Stress management</p>
             </li>
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Adaptability</p>
             </li>
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Conflict management</p>
             </li>
             <li>
               <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BsCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Openness to criticism</p>
             </li>
           </ul>
         </div>

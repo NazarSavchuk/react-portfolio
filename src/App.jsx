@@ -11,10 +11,12 @@ import Contacts from "./components/Contacts/Contacts";
 import Footer from "./components/Footer/Footer";
 
 function App() {
+  const [activeNav, setActiveNav] = React.useState("#");
+
   return (
     <>
-      <Header />
-      <Nav />
+      <Header setActiveNav={setActiveNav} />
+      <Nav activeNav={activeNav} setActiveNav={setActiveNav} />
       <About />
       <Experience />
       <Services />

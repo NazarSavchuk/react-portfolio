@@ -4,10 +4,8 @@ import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBookAlt } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { TiMessages } from "react-icons/ti";
-import { useState } from "react";
 
-function Nav() {
-  const [activeNav, setActiveNav] = useState("#");
+function Nav({ activeNav, setActiveNav }) {
   return (
     <nav>
       <a
