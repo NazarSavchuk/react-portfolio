@@ -1,11 +1,14 @@
-import React, { useRef } from "react";
+import React, { useState, useRef } from "react";
 import "./Contacts.scss";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
+import { FaCheckCircle } from "react-icons/fa";
 import emailjs from "emailjs-com";
 
 function Contacts() {
+  const [sendMessage, setSendMessage] = useState(false);
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -26,6 +29,10 @@ function Contacts() {
           console.log(error.text);
         }
       );
+    setSendMessage(true);
+    setTimeout(() => {
+      setSendMessage(false);
+    }, 10000);
   };
   return (
     <section id="contacts">
@@ -34,39 +41,33 @@ function Contacts() {
 
       <div className="container contact__container">
         <div className="contact__options">
-          <article className="contact__option">
+          <a
+            className="contact__option"
+            href="mailto:nazarsavcuk3@gmail.com"
+            target="_blank"
+            rel="noreferrer">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>E-mail</h4>
             <h5>nazarsavcuk3@gmail.com</h5>
-            <a
-              href="mailto:nazarsavcuk3@gmail.com"
-              target="_blank"
-              rel="noreferrer">
-              Send a message
-            </a>
-          </article>
-          <article className="contact__option">
+          </a>
+          <a
+            className="contact__option"
+            href="https://m.me/nazar.savchuk.liED"
+            target="_blank"
+            rel="noreferrer">
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5>nazarsavcuk3@gmail.com</h5>
-            <a
-              href="https://m.me/nazar.savchuk.liED"
-              target="_blank"
-              rel="noreferrer">
-              Send a message
-            </a>
-          </article>
-          <article className="contact__option">
+          </a>
+          <a
+            className="contact__option"
+            href="https://api.whatsapp.com/send?phone=+380688217395"
+            target="_blank"
+            rel="noreferrer">
             <BsWhatsapp className="contact__option-icon" />
             <h4>WhatsApp</h4>
-            <h5>123456789</h5>
-            <a
-              href="https://api.whatsapp.com/send?phone=+380688217395"
-              target="_blank"
-              rel="noreferrer">
-              Send a message
-            </a>
-          </article>
+            <h5>+48 *** *** 247</h5>
+          </a>
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input
@@ -81,9 +82,18 @@ function Contacts() {
             rows="7"
             placeholder="Your message"
             required></textarea>
-          <button type="submit" className="btn btn-primary">
-            Send Message
-          </button>
+          <div className="submit__block">
+            <button type="submit" className="btn btn-primary">
+              Send Message
+            </button>
+            {sendMessage ? (
+              <div className="send__message">
+                <FaCheckCircle /> Message just sent
+              </div>
+            ) : (
+              ""
+            )}
+          </div>
         </form>
       </div>
     </section>

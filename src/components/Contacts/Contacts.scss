@@ -60,3 +60,10 @@ textarea {
     width: var(--container-width-sm);
   }
 }
+.send__message {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 2rem;
+  transition: var(--transition);
+}
