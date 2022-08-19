@@ -27,7 +27,7 @@ function Portfolio() {
               GitHub
             </a>
             <a
-              href="https://react-pizza-2y5zdlxap-nazarsavchuk.vercel.app/"
+              href="https://react-pizza-kappa.vercel.app/"
               className="btn btn-primary"
               target="_blank">
               Live Demo
