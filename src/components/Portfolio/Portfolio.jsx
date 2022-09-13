@@ -1,7 +1,7 @@
 import React from "react";
 import "./Portfolio.scss";
 import IMG from "../../assets/img/demo.png";
-import pizzaIMG from "../../assets/img/react-pizza.JPG";
+import cakesIMG from "../../assets/img/react-cakes.JPG";
 import sneakersIMG from "../../assets/img/react-sneakers.JPG";
 import calculatorIMG from "../../assets/img/reducer-calculator.JPG";
 import reduxToDo from "../../assets/img/redux-todo.JPG";
@@ -16,7 +16,7 @@ function Portfolio() {
       <div className="container portfolio__container">
         <div className="portfolio__item">
           <div className="portfolio__item-img">
-            <img src={pizzaIMG} alt="project demo" />
+            <img src={cakesIMG} alt="project demo" />
           </div>
           <h3>Nazar's React Pizza</h3>
           <div className="portfolio__item-cta">

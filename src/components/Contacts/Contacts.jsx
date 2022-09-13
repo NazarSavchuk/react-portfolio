@@ -57,7 +57,7 @@ function Contacts() {
             rel="noreferrer">
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
-            <h5>nazarsavcuk3@gmail.com</h5>
+            <h5>Nazar Savchuk</h5>
           </a>
           <a
             className="contact__option"
