@@ -1,17 +1,30 @@
+#portfolio {
+  h2,
+  h5 {
+    color: #000;
+  }
+  padding: 6rem 2rem 6rem 2rem;
+
+  background: #bfbdbe;
+}
 .portfolio__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
 }
 .portfolio__item {
-  background: var(--color-bg-variant);
+  background: #ebebeb;
   padding: 1.3rem;
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  .btn {
+    background-color: #0d0d0d;
+    color: #bfbdbe;
+  }
   &:hover {
-    border-color: var(--color-primary-variant);
-    background: transparent;
+    border-color: #bfbdbe;
+    background: #aeaeae;
   }
   &-img {
     border-radius: 1.5rem;
@@ -24,6 +37,7 @@
   }
   h3 {
     margin: 2rem 0 1rem;
+    color: #0d0d0d;
   }
   &-cta {
     display: flex;

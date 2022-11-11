@@ -23,9 +23,9 @@ Computer Science and Econometrics
 
 ### LANGUAGES
 
-English - Advanced
-Polish - Advanced
-Ukrainian - Native
+- English - Advanced
+- Polish - Advanced
+- Ukrainian - Native
 
 ### TECHNICAL SKILLS
 

@@ -1,27 +1,40 @@
+#services {
+  padding: 6rem 2rem 6rem 2rem;
+  h2,
+  h5 {
+    color: #fff;
+  }
+}
 .services__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  height: 60vh;
   gap: 3rem;
+  justify-items: center;
+  align-items: center;
 }
 .services {
-  background: var(--color-bg-variant);
+  background: #bfbdbe;
   border-radius: 2rem;
-  border: 1px solid #998af1;
+  border: 1px solid #bfbdbe;
   height: fit-content;
   transition: var(--transition);
+  color: #000000;
+  path {
+    color: #000000;
+  }
   &:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
+    background: #aaaaaa;
     cursor: default;
   }
 }
 .service__head {
-  background: #4a33cd;
+  background: #0d0d0d;
   padding: 2rem;
   border-radius: 2rem;
   box-shadow: 0 2rem 1rem rgba($color: #000000, $alpha: 0.1);
   h3 {
-    color: #c8beff;
+    color: #fff;
     font-size: 1rem;
     text-align: center;
   }

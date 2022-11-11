@@ -2,6 +2,8 @@ header {
   height: 100vh;
   padding-top: 7rem;
   overflow: hidden;
+  background-color: #bfbdbe;
+  color: #0d0d0d;
 }
 .header__container {
   text-align: center;
@@ -28,7 +30,7 @@ header {
   content: "";
   width: 1px;
   height: 2rem;
-  background: var(--color-primary);
+  background: #0d0d0d;
 }
 
 .me {

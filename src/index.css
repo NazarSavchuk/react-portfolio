@@ -35,9 +35,8 @@ html {
 
 body {
   font-family: "Gantari", sans-serif;
-  background: rgb(66, 47, 173);
+  background: #544f59;
   height: 100%;
-  background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
 }
@@ -56,9 +55,7 @@ h5 {
 h1 {
   font-size: 2.5rem;
 }
-section {
-  margin-top: 6rem;
-}
+
 section > h2,
 section > h5 {
   text-align: center;
@@ -70,37 +67,38 @@ section > h2 {
   margin-bottom: 3rem;
 }
 .text-light {
-  color: var(--color-light);
+  color: #0d0d0d;
 }
 a {
-  color: var(--color-light);
+  color: #0d0d0d;
   transition: var(--transition);
 }
 a:hover {
-  color: var(--color-white);
+  color: #fff;
 }
 .btn {
   width: max-content;
   display: inline-block;
-  color: var(--color-primary);
+  color: #0d0d0d;
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
-  border: 1px solid var(--color-primary);
+  border: 1px solid #0d0d0d;
   transition: var(--transition);
 }
 
 .btn:hover {
-  background-color: var(--color-white);
-  color: var(--color-bg);
-  border-color: transparent;
+  background-color: #9e9ca6;
+  color: rgb(237, 237, 237);
+  border-color: rgb(237, 237, 237);
 }
 .btn-primary {
   background: var(--color-primary);
-  color: var(--color-bg);
+  color: #0d0d0d;
 }
 .btn-primary:hover {
-  background-color: #aca9c0;
+  background-color: #ededed;
+  color: #0d0d0d;
 }
 img {
   display: block;

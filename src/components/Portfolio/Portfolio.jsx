@@ -1,6 +1,7 @@
 import React from "react";
 import "./Portfolio.scss";
 import IMG from "../../assets/img/demo.png";
+import mernIMG from "../../assets/img/mern-blog.JPG";
 import cakesIMG from "../../assets/img/react-cakes.JPG";
 import sneakersIMG from "../../assets/img/react-sneakers.JPG";
 import calculatorIMG from "../../assets/img/reducer-calculator.JPG";
@@ -14,6 +15,26 @@ function Portfolio() {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
+        <div className="portfolio__item">
+          <div className="portfolio__item-img">
+            <img src={mernIMG} alt="project demo" />
+          </div>
+          <h3>MERN Stack Blog</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/NazarSavchuk/Blog-Front"
+              className="btn btn-primary"
+              target="_blank">
+              GitHub
+            </a>
+            <a
+              href="https://blog-mern-beta.vercel.app/"
+              className="btn btn-primary"
+              target="_blank">
+              Live Demo
+            </a>
+          </div>
+        </div>
         <div className="portfolio__item">
           <div className="portfolio__item-img">
             <img src={cakesIMG} alt="project demo" />
@@ -42,7 +63,7 @@ function Portfolio() {
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/NazarSavchuk/React--sneakers"
-              className="btn"
+              className="btn btn-primary"
               target="_blank">
               GitHub
             </a>
@@ -62,7 +83,7 @@ function Portfolio() {
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/NazarSavchuk/react-calculator-git"
-              className="btn"
+              className="btn btn-primary"
               target="_blank">
               GitHub
             </a>
@@ -82,7 +103,7 @@ function Portfolio() {
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/NazarSavchuk/redux-todo-list"
-              className="btn"
+              className="btn btn-primary"
               target="_blank">
               GitHub
             </a>
@@ -102,7 +123,7 @@ function Portfolio() {
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/NazarSavchuk/finsweet"
-              className="btn"
+              className="btn btn-primary"
               target="_blank">
               GitHub
             </a>

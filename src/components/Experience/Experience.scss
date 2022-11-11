@@ -1,17 +1,25 @@
+#experience {
+  background-color: #0d0d0d;
+  padding: 6rem 2rem 6rem 2rem;
+  h2,
+  h5 {
+    color: #fff;
+  }
+}
 .experience__container {
   display: grid;
 }
 .experience__frontend {
   width: 50%;
   margin: 0 auto;
-  background-color: var(--color-bg-variant);
+  background-color: transparent;
   padding: 2.5rem 5rem;
   border-radius: 2rem;
-  border: 1px solid transparent;
+  border: 1px solid #fff;
   transition: var(--transition);
   &:hover {
-    background-color: transparent;
-    border-color: var(--color-primary-variant);
+    box-shadow: inset 0px 0px 20px 10px rgba($color: #fff, $alpha: 0.4);
+    border-color: transparent;
     cursor: default;
   }
   h3 {
@@ -28,6 +36,11 @@
 .experience__details {
   display: flex;
   gap: 1rem;
+  div {
+    small {
+      color: #fff;
+    }
+  }
 }
 .experience__details-icon {
   margin-top: 6px;

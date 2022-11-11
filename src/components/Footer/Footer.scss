@@ -5,7 +5,7 @@ footer {
   font-size: 0.9rem;
   margin-top: 7rem;
   a {
-    color: var(--color-bg);
+    color: #0d0d0d;
   }
 }
 .footer__logo {
@@ -28,22 +28,22 @@ footer {
   gap: 1rem;
   margin-bottom: 4rem;
   a {
-    background-color: var(--color-bg);
+    background-color: #0d0d0d;
     color: var(--color-white);
     padding: 0.8rem;
     border-radius: 0.7rem;
     border: 1px solid transparent;
     display: flex;
     &:hover {
-      color: var(--color-bg);
+      color: #0d0d0d;
       background: transparent;
-      border-color: var(--color-bg);
+      border-color: #0d0d0d;
     }
   }
 }
 .footer__copyrights {
   margin-bottom: 4rem;
-  color: var(--color-bg);
+  color: #0d0d0d;
 }
 
 @media screen and (max-width: 600px) {

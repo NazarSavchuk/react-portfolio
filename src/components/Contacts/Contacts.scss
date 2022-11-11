@@ -1,3 +1,10 @@
+#contacts {
+  padding: 6rem 2rem 2rem 2rem;
+  h2,
+  h5 {
+    color: #fff;
+  }
+}
 .container.contact__container {
   width: 58%;
   display: grid;
@@ -11,15 +18,16 @@
   gap: 1.2rem;
 }
 .contact__option {
-  background: var(--color-bg-variant);
+  background: #0d0d0d;
   padding: 1.2rem;
+  border-color: #000;
   border-radius: 1.2rem;
   text-align: center;
+  color: #fff;
   border: 1px solid transparent;
   transition: var(--transition);
   &:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: #fff;
   }
   a {
     margin-top: 0.7rem;
@@ -40,12 +48,13 @@ form {
 input,
 textarea {
   width: 100%;
-  padding: 1.5rem;
+  padding: 1.2rem;
   border-radius: 0.5rem;
   background: transparent;
-  border: 2px solid var(--color-primary-variant);
+  border: 2px solid #bfbdbe;
   resize: none;
-  color: var(--color-white);
+  color: #bfbdbe;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 1024px) {
