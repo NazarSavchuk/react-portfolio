@@ -35,16 +35,15 @@
   transform: rotate(0);
 }
 .about__cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 .about__card {
   background: transparent;
   border: 1px solid #fff;
   border-radius: 1rem;
-  padding: 1rem;
+  padding: 2rem 10rem;
   text-align: center;
   transition: var(--transition);
   h5 {

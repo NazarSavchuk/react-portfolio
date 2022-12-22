@@ -6,7 +6,6 @@ import cakesIMG from "../../assets/img/react-cakes.JPG";
 import sneakersIMG from "../../assets/img/react-sneakers.JPG";
 import calculatorIMG from "../../assets/img/reducer-calculator.JPG";
 import reduxToDo from "../../assets/img/redux-todo.JPG";
-import finsweet from "../../assets/img/finsweet.JPG";
 
 function Portfolio() {
   return (
@@ -39,7 +38,7 @@ function Portfolio() {
           <div className="portfolio__item-img">
             <img src={cakesIMG} alt="project demo" />
           </div>
-          <h3>Nazar's React Pizza</h3>
+          <h3>Nazar's React Cakes</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/NazarSavchuk/react-pizza"
@@ -117,21 +116,18 @@ function Portfolio() {
         </div>
         <div className="portfolio__item">
           <div className="portfolio__item-img">
-            <img src={finsweet} alt="project demo" />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png"
+              alt="project demo"
+            />
           </div>
-          <h3>Finsweet landing (desktop only)</h3>
+          <h3>NodeJS File Manager CLI</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/NazarSavchuk/finsweet"
+              href="https://github.com/NazarSavchuk/node-nodejs-basics/tree/node-nodejs-basics"
               className="btn btn-primary"
               target="_blank">
               GitHub
-            </a>
-            <a
-              href="https://nazarsavchuk.github.io/finsweet/"
-              className="btn btn-primary"
-              target="_blank">
-              Live Demo
             </a>
           </div>
         </div>

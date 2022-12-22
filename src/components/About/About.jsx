@@ -14,11 +14,6 @@ function About() {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>4 years learning FrontEnd</small>
-            </article>
-            <article className="about__card">
               <VscFolderActive className="about__icon" />
               <h5>Projects</h5>
               <small>12+ Completed</small>
