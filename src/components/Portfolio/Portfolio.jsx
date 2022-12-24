@@ -124,7 +124,7 @@ function Portfolio() {
           <h3>NodeJS File Manager CLI</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/NazarSavchuk/node-nodejs-basics/tree/node-nodejs-basics"
+              href="https://github.com/NazarSavchuk/node-nodejs-basics/tree/file-manager"
               className="btn btn-primary"
               target="_blank">
               GitHub
