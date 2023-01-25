@@ -76,6 +76,23 @@ function Portfolio() {
         </div>
         <div className="portfolio__item">
           <div className="portfolio__item-img">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png"
+              alt="project demo"
+            />
+          </div>
+          <h3>NodeJS File Manager CLI</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/NazarSavchuk/node-nodejs-basics/tree/file-manager"
+              className="btn btn-primary"
+              target="_blank">
+              GitHub
+            </a>
+          </div>
+        </div>
+        <div className="portfolio__item">
+          <div className="portfolio__item-img">
             <img src={calculatorIMG} alt="project demo" />
           </div>
           <h3>useReducer calculator</h3>
@@ -111,23 +128,6 @@ function Portfolio() {
               className="btn btn-primary"
               target="_blank">
               Live Demo
-            </a>
-          </div>
-        </div>
-        <div className="portfolio__item">
-          <div className="portfolio__item-img">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png"
-              alt="project demo"
-            />
-          </div>
-          <h3>NodeJS File Manager CLI</h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/NazarSavchuk/node-nodejs-basics/tree/file-manager"
-              className="btn btn-primary"
-              target="_blank">
-              GitHub
             </a>
           </div>
         </div>
