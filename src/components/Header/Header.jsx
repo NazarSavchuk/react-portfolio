@@ -3,14 +3,20 @@ import "./Header.scss";
 import CTA from "./CTA";
 import ME from "../../assets/img/me.jpg";
 import HeaderSocials from "./HeaderSocials";
+import Typewriter from "typewriter-effect";
 
 function Header({ setActiveNav }) {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1>Nazar Savchuk</h1>
-        <h5 className="text-light">Front End Developer</h5>
+        <h2>Hi! I'm</h2>
+        <Typewriter
+          options={{
+            strings: ["Nazar Savchuk", "Front-End Developer", "Ukrainian"],
+            autoStart: true,
+            loop: true,
+          }}
+        />
         <CTA />
         <HeaderSocials />
         <div className="me">

@@ -5,7 +5,7 @@ import mernIMG from "../../assets/img/mern-blog.JPG";
 import cakesIMG from "../../assets/img/react-cakes.JPG";
 import sneakersIMG from "../../assets/img/react-sneakers.JPG";
 import calculatorIMG from "../../assets/img/reducer-calculator.JPG";
-import reduxToDo from "../../assets/img/redux-todo.JPG";
+import colorsListIMG from "../../assets/img/ColorsList.JPG";
 
 function Portfolio() {
   return (
@@ -113,18 +113,18 @@ function Portfolio() {
         </div>
         <div className="portfolio__item">
           <div className="portfolio__item-img">
-            <img src={reduxToDo} alt="project demo" />
+            <img src={colorsListIMG} alt="project demo" />
           </div>
-          <h3>Redux Todo List</h3>
+          <h3>Colors-List Job Task</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/NazarSavchuk/redux-todo-list"
+              href="https://github.com/NazarSavchuk/colors-list"
               className="btn btn-primary"
               target="_blank">
               GitHub
             </a>
             <a
-              href="https://redux-todo-list-fzzc0j3k0-nazarsavchuk.vercel.app/"
+              href="https://colors-list.vercel.app/?page=1"
               className="btn btn-primary"
               target="_blank">
               Live Demo

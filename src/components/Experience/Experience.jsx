@@ -28,7 +28,7 @@ function Experience() {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>JavaScript</h4>
+                <h4>JavaScript/TypeScript</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -49,7 +49,7 @@ function Experience() {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Redux Toolkit</h4>
+                <h4>Redux/Redux Toolkit</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>

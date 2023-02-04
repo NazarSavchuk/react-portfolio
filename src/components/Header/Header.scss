@@ -4,6 +4,9 @@ header {
   overflow: hidden;
   background-color: #bfbdbe;
   color: #0d0d0d;
+  h2 {
+    font-size: 3rem;
+  }
 }
 .header__container {
   text-align: center;
@@ -65,4 +68,12 @@ header {
   .scroll__down {
     display: none;
   }
+}
+
+.Typewriter {
+  min-width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
 }
